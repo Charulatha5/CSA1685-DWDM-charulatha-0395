@@ -1,0 +1,6 @@
+library(plotrix)
+x <-c(21,62,10,53)
+labels <-c("london","newyork","singapore","mumbai")
+png(file="3dcity.jpg")
+pie3D(x,labels=labels,explode=0.1,main="piechart of country")
+dev.off()
